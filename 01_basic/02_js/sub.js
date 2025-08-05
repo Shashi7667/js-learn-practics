@@ -1,4 +1,4 @@
 let a=20;
 let b= 10;
 let sub = a-b;
-.console.log();
+console.log("Subtraction of a-b", a, "-", b, "is :", sub);
