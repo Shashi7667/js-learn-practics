@@ -15,17 +15,35 @@ let userEmail;  // undefine
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 // Reference data types , non primitive data types
 
 // Arrays, object, function, 
 
 let movie = ["KGF", "Bahubali"];
-console.log(movie);
+// console.log(movie);
 
-let user ={
-    name : Shashi,
-    lastName : Raj
+
+
+let bike = "MT-15"
+
+let anotherBike ="ZX10R"
+anotherBike ="Kawashaki"
+
+console.log(bike);
+console.log(anotherBike);
+
+
+let user1 ={
+    email :"infoshashi69@gmail.com",
+    upi : "user@ybl"
 }
+
+let user2 = user1
+
+user2.email = "opshashi420@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
 
