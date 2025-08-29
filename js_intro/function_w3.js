@@ -41,3 +41,14 @@ add = (x , y) => x + y;
 
 let addTwoNumber = add(20 , 21);
 console.log(addTwoNumber);
+
+
+
+const my_obj = {key: "value"};
+my_obj.key = "otherValue";
+console.log(my_obj);
+
+
+const mySkils = ["Html", "css", "js", "bootstrap"];
+mySkils.push("Tailwind");
+console.log(mySkils);
